@@ -1,0 +1,501 @@
+@media only screen and (max-width: 900px) {
+    h1 {
+        letter-spacing: 0;
+    }
+    .center-nav {
+        display: none;
+    }
+    #mobile-menu {
+        display: block !important;
+    }
+    .Landing {
+        position: relative;
+        padding: 15% 7%;
+    }
+    .round-image-container {
+        height: 250px;
+        border-radius: 150px;
+    }
+    #center-menu-append li {
+        margin: 10px;
+        padding: 10px;
+        padding-left: 5%;
+        font-size: 14px;
+        text-decoration: none;
+        color: var(--light);
+        list-style: none;
+        text-align: left;
+        border-bottom: var(--light) 2px solid;
+        background: transparent;
+        z-index: 4;
+    }
+    .mobile-menu a:hover {
+        color: var(--secondary-color);
+    }
+    .mobile-menu a:visited {
+        color: var(--light2);
+    }
+    #Section-1 {
+        padding: 20% 7%;
+    }
+    #Section-1 .square {
+        width: 100px;
+        height: 100px;
+        padding: 5%;
+    }
+    #Section-1 h4 {
+        font-size: 12px;
+        margin: 0 auto;
+    }
+    #Section-1 .square p {
+        font-size: 10px;
+    }
+    #Section-1 .square {
+        right: 5%;
+    }
+    #Section-1 .inner-triangle {
+        height: 6rem;
+        width: 6rem;
+        right: 0;
+        bottom: 2.1rem;
+    }
+    .featured-post {
+        flex-direction: column;
+    }
+    .featured-post-image {
+        max-width: 100%;
+        max-height: 50vw;
+    }
+    .featured-post-text {
+        margin: 0;
+        margin-top: 3vw;
+    }
+    .featured-post-text h2 {
+        font-size: 5vw;
+    }
+    .featured-post-text p {
+        font-size: 3vw;
+    }
+    .post-card {
+        width: 30vw;
+    }
+    .post-card img {
+        width: 30vw;
+        height: 30vw;
+    }
+    .flip-card {
+        margin: 5%;
+        width: 30%;
+        height: 40vw;
+    }
+    .flip-card-1-front h4::before {
+        width: 220px;
+        height: 220px;
+    }
+    .flip-card-1-front::before {
+        width: 100px;
+        height: 100px;
+        border: 10px solid var(--secondary-4);
+    }
+    .flip-card-1-front h4::after {
+        width: 50px;
+        height: 50px;
+        border: 8px solid var(--secondary-4);
+        border-radius: 50%;
+    }
+    .card {
+        width: 40%;
+        margin: 2% 10px;
+    }
+    .info-item h4 {
+        font-size: 15px;
+    }
+    .info-item h5 {
+        font-size: 10px;
+    }
+    #s-toggle {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .stack {
+        flex-direction: column !important;
+    }
+    .reverse-stack {
+        flex-direction: column-reverse !important;
+    }
+    #tagline {
+        font-size: 2vw;
+    }
+    .header::after {
+        left: 29%;
+        width: 40%;
+    }
+    #mobile-menu {
+        font-size: 18px;
+        padding: 5px 7px;
+    }
+    .Landing .btn-container {
+        width: 200%;
+    }
+    .Landing img {
+        width: 260px;
+        right: 20%;
+        bottom: 12%;
+        position: relative;
+        z-index: -2;
+    }
+    .round-image-container {
+        height: 110px;
+        width: 100%;
+        background-attachment: fixed;
+        background-position: 0 12%;
+        border-radius: 150px;
+    }
+    .impress {
+        font-size: 30px;
+    }
+    #Section-1 {
+        padding: 10% 7%;
+    }
+    #Section-1 .mx-5 {
+        margin: 5% 0%;
+    }
+    #Section-1 .square {
+        width: 90px;
+        height: 90px;
+        padding: 5%;
+    }
+    #Section-1 h4 {
+        font-size: 12px;
+        margin: 0 auto;
+    }
+    #Section-1 .square p {
+        font-size: 8px;
+    }
+    #Section-1 .square {
+        right: 3%;
+    }
+    #Section-1 .inner-triangle {
+        height: 4rem;
+        width: 4rem;
+        right: 0;
+        bottom: 2.3rem;
+    }
+    #Section-2 {
+        padding: 20% 7%;
+    }
+    #Section-2 .even-flex {
+        flex-direction: column;
+    }
+    #Section-2 .even-flex p {
+        width: 80%;
+        font-size: 10px;
+    }
+    #Section-2 .rect-card {
+        height: auto;
+        padding: 3% 1%;
+        width: 100%;
+        overflow: scroll;
+    }
+    #Section-2 .rect-card h4 {
+        font-size: 14px;
+        margin: 5px;
+    }
+    #Section-2 .rect-card::-webkit-scrollbar {
+        display: none !important;
+    }
+    .right-nav .menu-container {
+        display: none;
+    }
+    .stick-container {
+        margin-left: 5%;
+        z-index: -1;
+    }
+    #Section-2 p {
+        font-size: 14px;
+    }
+    p {
+        font-size: 12px;
+    }
+    .left-menu {
+        padding: 0 5px;
+    }
+    #Section-3 p {
+        font-size: 12px;
+    }
+    #Section-3 .square-card {
+        width: 20vw;
+        height: 15vw;
+        margin: 10px 3px;
+    }
+    #Section-3 .square-card h4 {
+        font-size: 14px;
+    }
+    #robo-container {
+        position: relative;
+        top: 0;
+        left: 0;
+        border-radius: 5vw;
+    }
+    #Section-3 .w-50 {
+        width: 60%;
+    }
+    #Section-3 .square-card h3 {
+        font-size: 12px;
+    }
+    #section-4 {
+        height: auto;
+    }
+    #section-4 h4 {
+        font-size: 16px;
+    }
+    #section-4 img {
+        max-width: 100%;
+    }
+    #section-4 li {
+        margin: 3vw 0;
+    }
+    #section-4 .w-60 {
+        width: auto;
+    }
+    #section-4 li::after {
+        height: 1px;
+    }
+    .contact-form {
+        width: 90%;
+    }
+    .flip-card {
+        margin: 5%;
+        width: 70%;
+        height: 90vw;
+    }
+    .flip-card-1-front h4::after {
+        width: 80px;
+        height: 80px;
+        border: 8px solid var(--secondary-4);
+        border-radius: 50%;
+    }
+    #about-about .image-contain {
+        position: absolute;
+        z-index: -1;
+        opacity: 0.4;
+    }
+    #about-s1 .large {
+        position: absolute;
+        top: 50%;
+        text-align: center;
+        font-size: 16px;
+        z-index: 1;
+    }
+    #ring-l {
+        transform: rotate(-45deg);
+        transition: 0.5s all ease-out;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 70vw;
+        height: 70vw;
+        background: linear-gradient(to left, var(--dark-2), #40404000);
+        border-radius: 50%;
+    }
+    #ring-l-inner {
+        position: absolute;
+        width: 65vw;
+        height: 65vw;
+        background: var(--primary-2);
+        border-radius: 50%;
+    }
+    #ring-s {
+        transform: rotate(-45deg);
+        position: relative;
+        display: flex;
+        transition: 0.5s all linear;
+        align-items: center;
+        justify-content: center;
+        width: 45vw;
+        height: 45vw;
+        left: 5vw;
+        background: linear-gradient(to left, var(--dark-2), #40404000);
+        border-radius: 50%;
+    }
+    #ring-s-inner {
+        position: absolute;
+        width: 40vw;
+        height: 40vw;
+        background: var(--primary-2);
+        border-radius: 50%;
+    }
+    .product-card {
+        width: auto !important;
+    }
+    .product-card-small {
+        width: 35%;
+        padding: 20px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .product-card-small h2 {
+        font-size: 20px;
+    }
+    .product-card-small p {
+        font-size: 12px;
+    }
+    .product-card-small .round-btn {
+        font-size: 14px;
+        width: auto !important;
+        padding: 0.3rem 0.5rem;
+    }
+    .grad-line-span::after {
+        height: .4rem;
+    }
+    /*Buttons*/
+    .rect-btn {
+        font-size: 10px;
+        padding: 4px 16px;
+    }
+    .rect-btn-s {
+        font-size: 8px;
+    }
+    .rect-btn-l {
+        font-size: 12px;
+    }
+    .round-btn-l {
+        font-size: 12px;
+    }
+    .round-btn {
+        font-size: 10px;
+    }
+    .round-btn-s {
+        font-size: 8px;
+    }
+    .featured-post {
+        flex-direction: column;
+    }
+    .featured-post-image {
+        max-width: 100%;
+        max-height: 50vw;
+    }
+    .featured-post-text {
+        margin: 0;
+        margin-top: 3vw;
+    }
+    .featured-post-text h2 {
+        font-size: 5vw;
+    }
+    .featured-post-text p {
+        font-size: 3vw;
+    }
+    .post-card {
+        width: 30vw;
+    }
+    .post-card-image {
+        width: 30vw;
+        height: 30vw;
+    }
+    .post-card-title {
+        font-size: 16px;
+    }
+    .post-card-excerpt {
+        font-size: 10px;
+        height: 20vw;
+    }
+    #menu {
+        font-size: 20px;
+    }
+    .card-icons {
+        font-size: 20px;
+    }
+    .card {
+        font-size: 14px;
+    }
+    #mission .w-50 {
+        width: 90%;
+        font-size: 14px;
+    }
+    .info-item h4 {
+        font-size: 12px;
+    }
+    .info-item h5 {
+        font-size: 9px;
+    }
+    .pre-icons {
+        font-size: 20px;
+        width: 15px;
+    }
+    footer h4 {
+        font-size: 20px;
+    }
+    footer li {
+        font-size: 10px;
+    }
+    footer .left {
+        text-align: center !important;
+    }
+    #credits {
+        font-size: 10px;
+        padding: 5px 2px;
+    }
+    #credits h4 {
+        font-size: 12px;
+    }
+    footer .w-20 {
+        width: 50%;
+    }
+    .info .my-5 {
+        margin: 5px auto;
+    }
+    .contact-box span {
+        font-size: 15px;
+        word-wrap: break-word;
+    }
+    #courses .round-btn {
+        white-space: nowrap;
+    }
+    .profile-picture-container {
+        height: 80px;
+        width: 80px;
+    }
+    #Info {
+        display: block !important;
+    }
+    #Info .w-40 {
+        width: 90%;
+        margin: 0 auto;
+    }
+    #Info .post-thumbnail-small {
+        width: 120px;
+        height: 100px;
+    }
+    footer {
+        flex-direction: column;
+        align-items: center !important;
+        justify-content: space-evenly;
+    }
+    .comment-form-comment textarea {
+        width: 80%;
+        margin: 10px;
+    }
+    .breadcrumbcontainer {
+        width: 90% !important;
+    }
+    .breadcrumblabel {
+        font-size: 10px;
+        padding: 5px;
+    }
+    footer .w-30 {
+        width: 100%;
+    }
+    .line-container .container {
+        left: 0%
+    }
+    .portfolio-card {
+        width: 100%;
+    }
+    .mw-100 {
+        width: 100% !important;
+    }
+}
